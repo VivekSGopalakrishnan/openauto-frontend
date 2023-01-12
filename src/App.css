@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: osl;
+  src: url(./assets/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: osm;
+  src: url(./assets/OpenSans-Medium.ttf);
+}
+@font-face {
+  font-family: osr;
+  src: url(./assets/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: osb;
+  src: url(./assets/OpenSans-SemiBold.ttf);
+}
+

@@ -1,0 +1,149 @@
+.landing {
+    height: 100vh;
+    background-color: #0f141d;
+}
+
+.navbar {
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    color: #a9acad;
+    list-style: none;
+    font-family: 'osm';
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+
+.navbar li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button, .submit button {
+    background-color: inherit;
+    padding: 4px 20px 4px 20px;
+    border: 1px solid #a9acad;
+    color: #a9acad;
+    border-radius: 20px;
+    font-family: 'osb';
+    font-size: 13px;
+}
+.navbar button:hover,.submit button:hover{
+    border: 1px solid #7e0fe1;
+    background-color: #7e0fe1;
+    color: #FFFFFF;
+}
+
+.brand img{
+    height: 26px;
+    margin-left: 40px;
+}
+/*
+LANDING CONTENT
+*/
+.landing-main {
+    display: flex;
+    margin-top: 100px;
+}
+
+.landing-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.landing-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-right img {
+    height: 350px;
+}
+
+.main-title{
+    font-size: 34px;
+    font-family: 'osb';
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.main-subtitle{
+    font-size: 13px;
+    opacity: 80%;
+    font-family: 'osr';
+    color: #a9acad;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+input{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.name input, .email input{
+    background-color: inherit;
+    border: 1px solid #a9acad;
+    padding: 8px 30px 8px 20px;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+.name input:focus,
+.email input:focus{
+    color: #FFFFFF;
+    font-family: 'osr';
+}
+.landing-footer{
+    text-align: center;
+}
+.landing-footer img{
+    height: 60px;
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.submit .submit-form{
+    width: 210px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media (max-width:900px) {
+    .navbar ul{
+        display: none;
+    }
+    .landing-main {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .landing-right {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .landing-left{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing-right img {
+        height: 200px;
+    }
+    
+}

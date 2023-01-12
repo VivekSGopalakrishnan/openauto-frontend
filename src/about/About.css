@@ -1,0 +1,137 @@
+.about-sections{
+    display: flex;
+    background-color: #10141b;
+    height: 100vh;
+
+}
+
+.about-left{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.about-left img{
+    width: 70%;
+}
+.download-app button {
+    background-color: inherit;
+    padding: 4px 20px 4px 20px;
+    border: 1px solid #a9acad;
+    color: #a9acad;
+    border-radius: 20px;
+    font-family: 'osb';
+    font-size: 15px;
+}
+.download-app button:hover{
+    border: 1px solid #7e0fe1;
+    background-color: #7e0fe1;
+    color: #FFFFFF;
+}
+.download-app{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+/*
+Footer
+*/
+.footer{
+    background-color: #10141b;
+    
+}
+.row1{
+    border-top: 1px solid #FFFFFF ;
+    padding-top: 20px;
+    color: #a9acad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'osl';
+    font-size: 14px;
+}
+
+.info{
+    display: flex;
+}
+.number{
+    margin-right: 10px;
+}
+
+.row2{
+    color: #a9acad;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 40px;
+    font-family: 'osm';
+    padding-bottom: 40px;
+}
+
+.rights{
+    font-size: 8px;
+}
+
+.handles{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+@media (max-width:900px) {
+    .about-sections{
+        flex-direction: column;
+        padding-top: 260px;
+    
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .download-app{
+        margin: 40px 0px 0px 0px;
+    }
+    .about-left img{
+        width: 200px;
+    }
+    .row1,.row2{
+        flex-direction: column;
+    }
+    .handles{
+        margin-top: 10px;
+    }
+    .rights{
+        margin: 0;
+    }
+}
+@media (max-width:450px) {
+    .about-sections{
+        padding-top: 360px;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .number,.mail{
+        margin-top: 10px;
+
+    }
+}
